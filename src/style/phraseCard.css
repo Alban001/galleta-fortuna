@@ -1,0 +1,23 @@
+.phraseCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55%;
+    height: 18%;
+    background-color: hsla(34, 83%, 53%, 0.3);
+    ;
+    margin: 1rem;
+    border-radius: 0.5rem;
+
+    p {
+        color: black;
+        font-size: 2rem;
+        font-family: "Marck Script", cursive;
+        font-weight: 400;
+        font-style: normal;
+        padding: 1rem;
+        &::after{
+            content: '';
+        }
+    }
+}
