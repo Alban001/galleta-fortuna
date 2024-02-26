@@ -23,12 +23,12 @@
 
     p::after {
       content: '"';
-      font-size: 2rem;
+      font-size: 4rem;
     }
 
     p::before {
       content: '"';
-      font-size: 2rem;
+      font-size: 4rem;
     }
   }
 
