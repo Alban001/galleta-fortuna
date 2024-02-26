@@ -1,12 +1,16 @@
-:root {
+:root, html {
   font-family: sans-serif, monospace;
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #ded5ac;
-
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
+  overflow: auto;
   -moz-osx-font-smoothing: grayscale;
 }
