@@ -4,7 +4,6 @@ import './style/App.css'
 import getPhrasesRamon from './utils/getPhrasesRamon'
 import PhraseCard from './components/PhraseCard'
 import BtnPhrase from './components/BtnPhrase'
-import Footer from './components/Footer'
 
 function App() {
   
@@ -22,8 +21,7 @@ function App() {
       <div className='app' style={objectStyle}>
         <h1>Galleta de la Fortuna</h1>
         <PhraseCard phraseRandom={phraseRandom}  />
-        <BtnPhrase setButtonPressed={setPhrase} setimageSelected={setimageSelected}/>
-        <Footer setAuthor={} />
+        <BtnPhrase setButtonPressed={setPhrase} setimageSelected={setimageSelected} />
       </div>
      
     </>
