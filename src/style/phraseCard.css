@@ -71,12 +71,12 @@
 
       p::after {
         content: '"';
-        font-size: 1rem;
+        font-size: 2rem;
       }
 
       p::before {
         content: '"';
-        font-size: 1rem;
+        font-size: 2rem;
       }
     }
 
