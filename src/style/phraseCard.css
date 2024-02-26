@@ -19,6 +19,14 @@
             margin: 0;
            
         }
+        p::after { 
+            content: '"';
+            font-size: 2rem;
+          }
+          p::before { 
+            content: '"';
+            font-size: 2rem;
+          }
     }
    footer{
     color: black;
@@ -29,12 +37,5 @@
     padding: 1rem;
     margin: 0;
    }
-    p::after { 
-        content: '"';
-        font-size: 2rem;
-      }
-      p::before { 
-        content: '"';
-        font-size: 2rem;
-      }
+    
 }
