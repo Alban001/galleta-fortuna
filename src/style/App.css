@@ -10,10 +10,27 @@
   height: 100vh;
   margin: 0;
   padding: 0;
-  overflow: auto;
+  
   h1{
     color: black;
   }
-  
-  
+}
+@media only screen and (max-width: 750px) {
+  .app{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    width: 100vw;
+    height:100vh;
+    margin: 0;
+    padding: 0;
+    
+    h1{
+      color: black;
+    }
+  }
 }

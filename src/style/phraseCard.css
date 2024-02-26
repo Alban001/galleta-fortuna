@@ -1,34 +1,38 @@
 .phraseCard {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 55%;
-    height: 50%;
-    background-color: hsla(34, 83%, 53%, 0.3);
-    border-radius: 0.5rem;
-    margin: 1rem;
-    article{
-        p {
-            color: black;
-            font-size: 2rem;
-            font-family: "Marck Script", cursive;
-            font-weight: 400;
-            font-style: normal;
-            padding: 1rem;
-            margin: 0;
-           
-        }
-        p::after { 
-            content: '"';
-            font-size: 2rem;
-          }
-          p::before { 
-            content: '"';
-            font-size: 2rem;
-          }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 55%;
+  height: 50%;
+  background-color: hsla(34, 83%, 53%, 0.3);
+  border-radius: 0.5rem;
+  margin: 1rem;
+
+  article {
+    p {
+      color: black;
+      font-size: 2rem;
+      font-family: "Marck Script", cursive;
+      font-weight: 400;
+      font-style: normal;
+      padding: 1rem;
+      margin: 0;
+
     }
-   footer{
+
+    p::after {
+      content: '"';
+      font-size: 2rem;
+    }
+
+    p::before {
+      content: '"';
+      font-size: 2rem;
+    }
+  }
+
+  footer {
     color: black;
     font-size: 2rem;
     font-family: "Marck Script", cursive;
@@ -36,6 +40,52 @@
     font-style: normal;
     padding: 1rem;
     margin: 0;
-   }
-    
+  }
+
 }
+
+@media only screen and (max-width: 750px) {
+  .phraseCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+  height: 50%;
+  background-color: hsla(34, 83%, 53%, 0.3);
+  border-radius: 0.5rem;
+  margin: 0.6rem;
+
+  article {
+    p {
+      color: black;
+      font-size: 1.5rem;
+      font-family: "Marck Script", cursive;
+      font-weight: 400;
+      font-style: normal;
+      padding: 1rem;
+      margin: 0;
+
+    }
+
+    p::after {
+      content: '"';
+      font-size: 1rem;
+    }
+
+    p::before {
+      content: '"';
+      font-size: 1rem;
+    }
+  }
+
+  footer {
+    color: black;
+    font-size: 2rem;
+    font-family: "Marck Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    padding: 1rem;
+    margin: 0;
+  }
+}}
